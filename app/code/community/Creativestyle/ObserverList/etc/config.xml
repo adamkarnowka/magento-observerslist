@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Creativestyle_ObserverList>
-            <version>0.1.0</version>
+            <version>1.0.0</version>
         </Creativestyle_ObserverList>
     </modules>
     <global>
@@ -34,5 +34,6 @@
                 </creativestyle_observerlist>
             </modules>
         </translate>
+
     </adminhtml>
 </config>
