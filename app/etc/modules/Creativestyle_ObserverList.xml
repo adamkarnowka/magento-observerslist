@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Creativestyle_ObserverList>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Creativestyle_ObserverList>
+    </modules>
+</config>

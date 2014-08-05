@@ -1,0 +1,21 @@
+<div class="cs-info">
+    <img class="cs-logo" height="64" src="http://www.creativestyle.de/wp-content/themes/creativestyle/cs/img/cslogo.svg"/>
+    <div class="cs-description">
+        <?php echo $this->__('This extension lists all defined events and attached listeners. Helpful for debugging.');?>.<br/>
+        <?php echo $this->__('Contact');?>: <a href="mailto:adam.karnowka@creativestyle.pl">adam.karnowka@creativestyle.pl</a>
+
+    </div>
+</div>
+<?php
+    $observers = Mage::helper('creativestyle_observerlist')->getObservers();
+    foreach($observers as $observer=>$listeners):?>
+        <div class="event">
+            <?php echo $observer;?>
+            <ul class="listeners">
+                <?php foreach($listeners as $listener):?>
+                    <li class="listener"><span class="code"><?php echo $listener['class'].'</span> / <span class="code">'.$listener['method'];?></span></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+
+    <?php endforeach;?>

@@ -1,0 +1,44 @@
+.entry-edit fieldset li.listener{
+    margin-left: 20px;
+    font-weight: normal;
+}
+
+
+.entry-edit fieldset div.event{
+    font-weight: bold;
+    margin-top: 9px;
+}
+
+span.code{
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    border-radius: 3px;
+    padding: 2px;
+    font-family: Consolas, Monaco, "Lucida Console", "Courier New", courier, monospace;
+}
+
+
+.cs-info{
+    min-height: 40px;
+    padding:10px;
+    background-color: #000000;
+    border:1px solid #bebbbe;
+    margin-bottom: 10px;
+}
+
+.cs-info .cs-description{
+    float: left;
+    color: white;
+    margin-left: 20px;
+}
+
+.cs-info .cs-description a{
+    color: #f3f3f3;
+}
+
+.cs-info img.cs-logo{
+    float: left;
+    height: 40px;
+    width: 140px;
+
+}
