@@ -6,6 +6,6 @@ class Creativestyle_ObserverList_Block_Adminhtml_Observers extends  Mage_Adminht
     }
 
     public function render(Varien_Data_Form_Element_Abstract $element){
-        return Mage::app()->getLayout()->createBlock('Mage_Core_Block_Template', 'Sare_Infoblock', array('template' => 'creativestyle_observerlist/list.phtml'))->toHtml();
+        return Mage::app()->getLayout()->createBlock('Mage_Core_Block_Template', 'CS_Infoblock', array('template' => 'creativestyle_observerlist/list.phtml'))->toHtml();
     }
 }
