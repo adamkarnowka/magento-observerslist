@@ -1,0 +1,7 @@
+app/code/community/Creativestyle/ObserverList   app/code/community/Creativestyle/ObserverList
+app/design/adminhtml/default/default/layout/creativestyle_observerlist.xml  app/design/adminhtml/default/default/layout/creativestyle_observerlist.xml
+app/design/adminhtml/default/default/template/creativestyle_observerlist/list.phtml app/design/adminhtml/default/default/template/creativestyle_observerlist/list.phtml
+app/etc/modules/Creativestyle_Observerlist.xml  app/etc/modules/Creativestyle_Observerlist.xml
+app/locale/en_US/Creativestyle_Observerlist.csv app/locale/en_US/Creativestyle_Observerlist.csv
+app/locale/pl_PL/Creativestyle_Observerlist.csv app/locale/pl_PL/Creativestyle_Observerlist.csv
+skin/adminhtml/default/default/css/creativestyle_observerlist/style.css     skin/adminhtml/default/default/css/creativestyle_observerlist/style.css
