@@ -1,0 +1,17 @@
+{
+    "name": "adamkarnowka/magento-observerslist",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "This extension lists all defined events and attached listeners. Helpful for debugging.",
+    "homepage": "https://github.com/adamkarnowka/magento-observerslist",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Adam Karnowka",
+            "email":"adam.karnowka@creativestyle.pl",
+            "role" : "developer"
+        }
+    ]
+}
